@@ -232,7 +232,7 @@ and (max-width : 991px) {
     }
 
     .menu-item.responsive {
-        width: 49.5%;
+        width: 100%;
         float: left;
         margin-right: 3px;
     }

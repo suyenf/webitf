@@ -219,7 +219,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="col-md-3 col-sm-4 col-xs-12">
                                 <div class="feature">
                                     <i class="fa fa-magic"></i>
                                     <div class="feature-content">
@@ -231,7 +231,7 @@
                             </div><!-- /.col-md-3 -->
 
 
-                            <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="col-md-3 col-sm-2 col-xs-12">
                                 <div class="feature">
                                     <i class="fa fa-css3"></i>
                                     <div class="feature-content">
@@ -241,7 +241,7 @@
                                     </div>
                                 </div>
                             </div><!-- /.col-md-3 -->
-                            <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="col-md-3 col-sm-2 col-xs-12">
                                 <div class="feature">
                                     <i class="fa fa-bookmark-o"></i>
                                     <div class="feature-content">
@@ -253,7 +253,7 @@
                                 </div>
                             </div><!-- /.col-md-3 -->
 
-                            <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="col-md-3 col-sm-4 col-xs-12">
                                 <div class="feature">
                                     <i class="fa fa-database"></i>
                                     <div class="feature-content">
@@ -565,10 +565,21 @@
                                 <h4>Siguenos en nuestras Redes Sociales</h4>
                                 <ul>
                                     <br><br>
-                                    <li><a href="#"><i class="fa fa-twitter" title="Twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook" title="Facebook"></i></a></li>
+                                    <li>
+                                        <a href="https://twitter.com/InverTecFaudit" target="_blank">
+                                         <i class="fa fa-twitter" title="Twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/pages/Inversion-Tecnologica-Faudito/273776679398700" target="_blank" >
+                                            <i class="fa fa-facebook" title="Facebook"></i>
+                                        </a>
+                                    </li>
                                     <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
-                                    <li><a href="#"><i class="fa fa-linkedin" title="Linkedin"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/inversi%C3%B3n-tecnol%C3%B3gica-faudito" target="_blank">
+                                            <i class="fa fa-linkedin" title="Linkedin"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -579,7 +590,8 @@
                             Rellena el formulario a continuaci&oacute;n y 
                             te contactaremos a la brevedad posible.</h4><br>
                         <div class="col-md-12">
-                            <form name="sentMessage" id="contactForm" novalidate>
+                            <!--<form name="sentMessage" id="contactForm" novalidate>-->
+                            <form action="../mail/contact_me.php" method="POST" id="contactForm" novalidate>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -604,7 +616,8 @@
                                     <div class="clearfix"></div>
                                     <div class="col-lg-12 text-center">
                                         <div id="success"></div>
-                                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                        <input type="submit" value="Submit">
                                     </div>
                                 </div>
                             </form>
