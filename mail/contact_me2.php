@@ -31,7 +31,6 @@ $headers = 'From: Inversión Tecnológica Faudito. '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);
 
-echo '<script language="javascript">alert("ENVIADO");window.locationf="http://www.inversiontecnologicaf.tecnologicafaudito.com.ve/";</script>'; 
-//echo "¡El formulario se ha enviado con éxito!";
+echo"<script type=\"text/javascript\">alert('Su Mensaje ha sido Enviado'); window.location='http://www.inversiontecnologicaf.tecnologicafaudito.com.ve/';</script>";  //echo "¡El formulario se ha enviado con éxito!";
 }
 ?>
